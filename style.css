@@ -1,0 +1,191 @@
+.sticky {
+    margin: 0;
+    color: white;
+    position: sticky;
+    background-image: linear-gradient(to right, rgb(58, 0, 58) , black);
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100px;
+    font-family: monospace;
+
+    
+}
+
+.haft1 {
+    text-align: left;
+    background-image: linear-gradient(to right, rgb(165, 0, 165) , black);
+    width: auto;
+    height: 100%;
+    display: flex;
+}
+
+.haft2 {
+    text-align: left;
+    width: auto;
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(152, 88, 255));
+    height: 1080px;
+}
+
+.haft3 {
+    text-align: left;
+    width: auto;
+    background-image: linear-gradient(to right, rgb(84, 36, 255) , rgb(0, 0, 0));
+    height: 1080px;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: stretch;
+   
+}
+
+.namebox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.menu {
+    padding: 30px;
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.namebar {
+    padding: 10px;
+    font-size: 60px;
+    margin: 5px;
+    margin-left: 20px;
+}
+
+.box1 {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: monospace;
+    margin: 100;
+    font-size: 40px;
+    display: flex;
+}
+
+.box2 {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: monospace;
+
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pic {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+
+
+}
+
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.about {
+    margin-left: 70px;
+}
+
+.r {
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    /* border-width: 250px; */
+    border-radius: 20px;
+    padding: 10px;
+    /* padding: 200px; */
+    width: 800px;
+    margin: 50px;
+}
+
+.r2 {
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    margin-bottom: 90;
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.aboutpic {
+    display: inline;
+    height: 370px;
+    width: auto;
+    margin: 250px;
+
+}
+
+.name {
+    color: black;
+    font-family: monospace;
+    padding: 20px;
+}
+
+.skill {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: monospace;
+    margin: 100;
+    font-size: 80px;
+    display: flex;
+    margin-left: 800px
+}
+
+.contact {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: monospace;
+    margin: 100;
+    font-size: 80px;
+    display: flex;
+    margin-left: 830px
+}
+
+.ig {
+    margin-left: 300px;
+    padding: 40px;
+    color: aliceblue;
+}
+
+.imgcontact {
+    display: grid;
+    grid-template-columns: repeat();
+}
+
+.ppp {
+    color: white;
+    font-family: monospace;
+    font-size: 50px;
+}
+
+.imgcontact a {
+    display: flex;
+    align-items: center;
+}
